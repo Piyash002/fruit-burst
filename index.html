@@ -42,7 +42,7 @@
         }
     </style>
 </head>
-<body class="lato-fonts">
+<body class="lato-fonts px-10">
     <header class="relative"> 
      <!-- nav section  -->
         <nav class="max-w-[1440px] mx-auto ">
@@ -105,9 +105,9 @@
             <!-- slider of food items -->
             <div class="carousel w-full rounded-lg " >
                 <!-- slider 1 -->
-                <div id="slide1" class="carousel-item relative    py-5  lg:py-40  lg:w-full lg:h-full h-full  w-full bg-cover " 
+                <div id="slide1" class="carousel-item relative  py-5  lg:py-40  lg:w-full lg:h-full h-full  w-full bg-cover " 
                 style="background-image:url('./images/banner1.png');" >
-                 <div class="mx-auto my-4 w-full lg:h-full lg:w-full  ">
+                 <div class="mx-auto my-4 w-full lg:h-full lg:w-full bg-opacity-60  ">
                     <h3 class="text-center text-white text-2xl font-extrabold lg:text-7xl lg:font-extrabold">Exotic 
                          tastes at your <br> 
                          doorstep</h3>
@@ -129,7 +129,7 @@
                 <div id="slide2" class="carousel-item relative py-5 lg:py-40   lg:w-full lg:h-full h-full  w-full bg-cover" 
                  style="background-image: 
                  url('./images/banner2.png');">
-                    <div class="mx-auto my-4 w-full lg:h-full lg:w-full  ">
+                    <div class="mx-auto my-4 w-full lg:h-full lg:w-full bg-opacity-60">
                         <h3 class="text-center text-white text-2xl font-extrabold lg:text-7xl lg:font-extrabold">Exotic
                             tastes at your <br>
                             doorstep</h3>
@@ -150,7 +150,7 @@
                 <div id="slide3" class="carousel-item relative  py-5 lg:py-40   lg:w-full lg:h-full h-full w-full bg-cover" s 
                  style="background-image: 
                  url('./images/banner3.png');">
-                        <div class="mx-auto my-4 w-full lg:h-full lg:w-full  ">
+                        <div class="mx-auto my-4 w-full lg:h-full lg:w-full bg-opacity-60">
                             <h3 class="text-center text-white text-2xl font-extrabold lg:text-7xl lg:font- 
                              extrabold">Exotic
                                 tastes at your <br>
@@ -169,10 +169,10 @@
                     </div>
                 </div>
                 <!-- slider 4 -->
-                <div id="slide4" class="carousel-item relative  py-5 lg:py-40  lg:w-full lg:h-full h-full w-full bg-cover " 
+                <div id="slide4" class="carousel-item relative py-5 lg:py-40  lg:w-full lg:h-full h-full w-full bg-cover " 
                  style="background-image: 
                  url(./images/banner4.png);">
-                        <div class="mx-auto my-4 w-full lg:h-full lg:w-full  ">
+                        <div class="mx-auto my-4 w-full lg:h-full lg:w-full bg-opacity-60">
                             <h3 class="text-center text-white text-2xl font-extrabold lg:text-7xl lg:font- 
                              extrabold">Exotic
                                 tastes at your <br>
@@ -264,7 +264,8 @@
                 </div>
             </div>
             <!-- fruits prizes -->
-            <section class="mt-12 max-w-[1440px] space-y-4 lg:space-x-4  flex  justify-center items-center flex-col lg:flex-row ">
+            <section class="max-w-[1440px]">
+                <div class="mt-12 max-w-[1440px] space-y-4 lg:space-x-4  flex  justify-center items-center flex-col lg:flex-row">
                 <!-- Fruit 1 -->
 <div class="card w-96 bg-base-100 shadow-xl ">
     <figure><img src="./images/fruit6.png" alt="apples" /></figure>
@@ -428,7 +429,7 @@
                         <!-- <a href="">Details</a> -->
                         <!-- Open the modal using ID.showModal() method -->
                         <button class="text-primary-color font-bold text-lg" onclick="my_modal_5.showModal()">Details</button>
-                        <dialog id="my_modal_8" class="modal modal-bottom sm:modal-middle">
+                        <dialog id="my_modal_9" class="modal modal-bottom sm:modal-middle">
                             <div class="modal-box px-200 py-70">
                                 <img class="mx-auto" src="./images/fruit9.png" alt="">
                                 <h3 class="font-extrabold text-4xl text-center text-black mt-6">Banana</h3>
@@ -457,14 +458,85 @@
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
+            </div>
+         
             </section>
+            
         </Section>
+        <!-- Buuton section -->
+        <div class=" max-w-[1440px]  mt-10 mx-auto text-center">
+            <button class="btn bg-[#F85559]  text-white border-none  ">Shop Now</button>
+        </div>
+
+        <!-- team member section -->
+      <section class="max-w-[1440px] mx-auto mt-36 rounded-2xl border-none">
+      <div class="hero bg-cover lg:min-h-[690px] rounded-2xl border-none"
+            style="background-image: url('./images/team.png');" >
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+                <div class="">
+                    <h1 class="mb-5 text-5xl font-bold text-white">Meet the team section</h1>
+                    <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of 
+                    classical <br> Latin literature from 45 BC,
+                    making it over 2000 years old.
+                    </p>
+                    <!-- team details -->
+                    <div class="flex flex-col lg:flex-row justify-center items-center mt-12 gap-36 px-16 py-10">
+                        <!-- person1 -->
+                        <div class="">
+                            <img src="./images/member1.png" alt="">
+                            <h3 class="text-2xl font-bold mt-8">Awlad Hossain</h3>
+                            <p class="text-base font-medium">Fruits Expert</p>
+                            <div class=" flex justify-center space-x-4 mt-3">
+                                <a href=""><img src="./images/facebook 1 (1).svg" alt=""></a>
+                                <a href=""><img src="./images/twitter (1) 1.svg" alt=""></a>
+                                <a href=""><img src="./images/linkedin 1 (1).svg" alt=""></a>
+                            </div>
+                        </div> 
+                        <!-- person2 -->
+                        <div class="">
+                            <img src="./images/member2.png" alt="">
+                            <h3 class="text-2xl font-bold mt-8">Awlad Hossain</h3>
+                            <p class="text-base font-medium">Fruits Expert</p>
+                            <div class=" flex justify-center space-x-4 mt-3">
+                                <a href=""><img src="./images/facebook 1 (1).svg" alt=""></a>
+                                <a href=""><img src="./images/twitter (1) 1.svg" alt=""></a>
+                                <a href=""><img src="./images/linkedin 1 (1).svg" alt=""></a>
+                            </div>
+                        </div>
+                        <!-- person3 -->
+                        <div class="">
+                            <img src="./images/member3.png" alt="">
+                            <h3 class="text-2xl font-bold mt-8">Awlad Hossain</h3>
+                            <p class="text-base font-medium">Fruits Expert</p>
+                            <div class=" flex justify-center space-x-4 mt-3">
+                                <a href=""><img src="./images/facebook 1 (1).svg" alt=""></a>
+                                <a href=""><img src="./images/twitter (1) 1.svg" alt=""></a>
+                                <a href=""><img src="./images/linkedin 1 (1).svg" alt=""></a>
+                            </div>
+                        </div>
+                        <!-- person4 -->
+                        <div class="">
+                            <img src="./images/member4.png" alt="">
+                            <h3 class="text-2xl font-bold mt-8">Awlad Hossain</h3>
+                            <p class="text-base font-medium">Fruits Expert</p>
+                            <div class=" flex justify-center space-x-4 mt-3">
+                                <a href=""><img src="./images/facebook 1 (1).svg" alt=""></a>
+                                <a href=""><img src="./images/twitter (1) 1.svg" alt=""></a>
+                                <a href=""><img src="./images/linkedin 1 (1).svg" alt=""></a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+      </section>
+         
+      <!--  -->
+        
     </main>
 
     <footer>
